@@ -1,0 +1,168 @@
+//Vector object
+
+var Vector = function(x, y){
+    this.x = x;
+    this.y = y;
+};
+
+Vector.prototype.add = function(x, y){
+    this.x += x;
+    this.y += y;
+};
+
+Vector.prototype.edge = function(_vec){
+    var v = new Vector();
+    v.x = this.x - _vec.x;
+    v.y = this.y - _vec.y;
+
+    return v;
+}
+
+Vector.prototype.normal = function(){
+    var perpendicular_vector = new Vector();
+    perpendicular_vector.x = this.y;
+    perpendicular_vector.y = -this.x;
+
+    return perpendicular_vector.normalize();
+
+};
+
+Vector.prototype.normalize = function(){
+
+    var v = new Vector();
+    var m = this.getMagnitude();
+
+    v.x = this.x / m;
+    v.y = this.y / m;
+
+    return v;
+}
+
+Vector.prototype.getMagnitude = function(){
+    return Math.sqrt(Math.pow(this.x, 2) + Math.pow(this.y, 2));
+};
+
+Vector.prototype.dotProduct = function(vector){
+    return (this.x * vector.x + this.y * vector.y);
+}
+
+//--------------
+//Polygon object
+
+var Polygon = function(vectors){
+    this.vectors = vectors;
+    this.fillColor = "#000";
+    this.strokeColor = "#000";
+};
+
+Polygon.prototype.fill = function(context){
+    context.save();
+    context.fillStyle = this.fillColor;
+    this.createPath(context);
+    context.stroke();
+    context.fill();
+    context.restore();
+};
+
+Polygon.prototype.createPath = function(context){
+    if(this.vectors.length === 0) return;
+
+    context.beginPath();
+    context.moveTo(this.vectors[0].x, this.vectors[0].y);
+
+    for(var i = 0; i < this.vectors.length; i++){
+        context.lineTo(this.vectors[i].x, this.vectors[i].y);
+    }
+
+    context.closePath();
+};
+
+Polygon.prototype.move = function(){
+    if(arguments.length == 1){
+
+        if(arguments[0] instanceof Vector){
+
+            for(var i = 0; i < this.vectors.length; i++){
+                this.vectors[i].add(arguments[0].x, arguments[0].y);
+            }
+
+        }else{
+            alert("nothing");
+        }
+
+        return;
+    }else if(arguments.length == 2){
+
+        for(var i = 0; i < this.vectors.length; i++){
+            this.vectors[i].add(arguments[0], arguments[1]);
+        }
+
+        return;
+    }else{
+        return;
+    }
+}
+
+Polygon.prototype.getAxes = function(){
+    var v1 = new Vector();
+    var v2 = new Vector();
+    var axes = [];
+
+    var vector_length = this.vectors.length;
+    for(var i = 0; i < vector_length; i++){
+
+        v1.x = this.vectors[i].x;
+        v1.y = this.vectors[i].y;
+
+        v2.x = this.vectors[(i + 1) % vector_length].x;
+        v2.y = this.vectors[(i + 1) % vector_length].y;
+
+        axes.push(v1.edge(v2).normal());
+    }
+
+    return axes;
+};
+
+Polygon.prototype.project = function(axis){
+    var scalars = [];
+    v = new Vector();
+
+    this.vectors.forEach(function(vector){
+        v.x = vector.x;
+        v.y = vector.y;
+
+        scalars.push(v.dotProduct(axis));
+    });
+
+    return new Projection(Math.min.apply(Math, scalars), Math.max.apply(Math, scalars));
+}
+
+Polygon.prototype.collideWidth = function(polygon){
+    var axes = this.getAxes().concat(polygon.getAxes());
+
+    for(var i = 0; i < axes.length; i++){
+        axis = axes[i];
+
+        projection1 = polygon.project(axis);
+        projection2 = this.project(axis);
+
+        if(! projection1.overlap(projection2)){
+            return false;
+        }
+
+    }
+
+    return true;
+}
+
+//project class
+
+var Projection = function (min, max) {
+    this.min = min;
+    this.max = max;
+};
+
+
+Projection.prototype.overlap = function(projection){
+    return this.max > projection.min && projection.max > this.min;
+}
