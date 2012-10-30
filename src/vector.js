@@ -275,5 +275,42 @@ function getPolygonPointClosestToCircle(polygon, circle){
     return closestPt;
 }
 
+//--------
+//--wall--
+//--------
+
+var Wall = function(){
+    this.startVec = undefined;
+    this.endVec = undefined;
+
+    this.strokeColor = '#000';
+    this.width = 1;
+};
+
+Wall.prototype.createPath = function(context){
+    if(this.startVec !== undefined && this.endVec !== undefined){
+        context.beginPath();
+        context.moveTo(this.startVec.x, this.startVec.y);
+        context.lineTo(this.endVec.x, this.endVec.y);
+        context.closePath();
+    }
+};
+
+Wall.prototype.line_stroke = function(context){
+    context.save();
+    context.strokeStyle = this.strokeColor;
+    this.createPath(context);
+    context.stroke();
+    context.fill();
+    context.restore();
+};
+
+
+Wall.prototype.collideObject = function(circle){
+    //wall' equation
+    //finding the cross point
+
+
+};
 
 
