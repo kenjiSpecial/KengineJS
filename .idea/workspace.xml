@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5767957d-0ba4-4630-9620-f0908815418f" name="Default" comment="update">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/common/diagmonds.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/collision_slope_detection/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/collision_slope_detection/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/common/requestAnim.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/common/animationframe.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="5767957d-0ba4-4630-9620-f0908815418f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/collision_slope_detection/index.html" afterPath="$PROJECT_DIR$/example/collision_slope_detection/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/collision_slope_detection/script.js" afterPath="$PROJECT_DIR$/example/collision_slope_detection/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/vector.js" afterPath="$PROJECT_DIR$/src/vector.js" />
     </list>
     <ignored path="KengineJS.iws" />
@@ -34,7 +30,7 @@
           <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/example/collision_slope_detection/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="29" column="35" selection-start="731" selection-end="731" vertical-scroll-proportion="-18.56">
+                <state line="32" column="9" selection-start="818" selection-end="818" vertical-scroll-proportion="-20.48">
                   <folding />
                 </state>
               </provider>
@@ -52,7 +48,7 @@
           <file leaf-file-name="vector.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/vector.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="279" column="1" selection-start="6120" selection-end="6120" vertical-scroll-proportion="0.25454545">
+                <state line="333" column="0" selection-start="7902" selection-end="7902" vertical-scroll-proportion="0.8909091">
                   <folding />
                 </state>
               </provider>
@@ -73,10 +69,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/example/collision_slope_detection/script.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="38" column="0" selection-start="755" selection-end="755" vertical-scroll-proportion="0.68085104">
+                <state line="21" column="17" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -85,16 +81,16 @@
           <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/example/collision_deetection_rectangle/script.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="39" column="9" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.0">
+                <state line="97" column="33" selection-start="2399" selection-end="2399" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="vector.js" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="vector.js" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/vector.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="273" column="0" selection-start="6071" selection-end="6071" vertical-scroll-proportion="0.0">
+                <state line="35" column="21" selection-start="651" selection-end="651" vertical-scroll-proportion="0.6557377">
                   <folding />
                 </state>
               </provider>
@@ -119,16 +115,17 @@
         <option value="$USER_HOME$/Programing/git/html5/html5_code/shared/js/shapes.js" />
         <option value="$USER_HOME$/Programing/git/html5/html5_code/ch08/example-8.10/shapes.js" />
         <option value="$PROJECT_DIR$/example/collision_deetection_circle/script.js" />
-        <option value="$PROJECT_DIR$/example/collision_slope_detection/index.html" />
         <option value="$PROJECT_DIR$/example/common/animationframe.js" />
         <option value="$PROJECT_DIR$/example/common/requestAnim.js" />
+        <option value="$PROJECT_DIR$/example/collision_slope_detection/index.html" />
         <option value="$PROJECT_DIR$/example/collision_slope_detection/script.js" />
         <option value="$PROJECT_DIR$/src/vector.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
+    <option name="x" value="14" />
+    <option name="y" value="72" />
     <option name="width" value="1617" />
     <option name="height" value="1014" />
   </component>
@@ -223,6 +220,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KengineJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KengineJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="collision_slope_detection" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -276,7 +295,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/example/common/img" />
       <recent name="$PROJECT_DIR$/example/common" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/example/common/img" />
     </key>
   </component>
   <component name="RunManager">
@@ -318,14 +341,22 @@
       <created>1351587922115</created>
       <updated>1351587922115</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update">
+      <created>1351596724647</created>
+      <updated>1351596724647</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update">
+      <created>1351619710679</created>
+      <updated>1351619710679</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1617" height="1014" extended-state="0" />
+    <frame x="14" y="72" width="1617" height="1014" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -401,7 +432,7 @@
           <properties />
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="395" />
+      <option name="time" value="785" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -480,26 +511,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/collision_deetection_rectangle/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="9" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/collision_slope_detection/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="35" selection-start="731" selection-end="731" vertical-scroll-proportion="-18.56">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example/common/requestAnim.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="5" selection-start="464" selection-end="464" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#156#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/collision_deetection_rectangle/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="33" selection-start="2399" selection-end="2399" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/collision_slope_detection/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="9" selection-start="818" selection-end="818" vertical-scroll-proportion="-20.48">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -512,7 +543,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/vector.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="279" column="1" selection-start="6120" selection-end="6120" vertical-scroll-proportion="0.25454545">
+        <state line="333" column="0" selection-start="7902" selection-end="7902" vertical-scroll-proportion="0.8909091">
           <folding />
         </state>
       </provider>

@@ -36,7 +36,7 @@ Vector.prototype.normalize = function(){
     v.y = this.y / m;
 
     return v;
-}
+};
 
 Vector.prototype.getMagnitude = function(){
     return Math.sqrt(Math.pow(this.x, 2) + Math.pow(this.y, 2));
@@ -44,7 +44,7 @@ Vector.prototype.getMagnitude = function(){
 
 Vector.prototype.dotProduct = function(vector){
     return (this.x * vector.x + this.y * vector.y);
-}
+};
 
 
 //-------------
@@ -306,10 +306,33 @@ Wall.prototype.line_stroke = function(context){
 };
 
 
-Wall.prototype.collideObject = function(circle){
-    //wall' equation
-    //finding the cross point
+Wall.prototype.collideCircle = function(circle){
+    //judging the area where the circle is.
+    var WallVec = this.endVec.edge(this.startVec);
+    var circleVec = new Vector(circle.x, circle.y);
+    var WallToCircleVec = circleVec.edge(this.startVec);
 
+    var judgeVal = WallToCircleVec.dotProduct(WallVec) / WallVec.dotProduct(WallVec);
+
+    var distance;
+
+    if(judgeVal < 0){
+        distance = Math.sqrt(Math.pow(circleVec.x - this.startVec.x, 2) + Math.pow(circleVec.y - this.startVec.y, 2));
+    }else if(judgeVal > 1){
+        distance = Math.sqrt(Math.pow(circleVec.x - this.endVec.x, 2) + Math.pow(circleVec.y - this.endVec.y, 2));
+    }else{
+        distance = Math.abs((this.endVec.x - this.startVec.x) * circle.y - (this.endVec.y - this.startVec.y) * circle.x - this.endVec.x * this.startVec.y + this.startVec.x * this.endVec.y)/Math.sqrt(Math.pow( this.endVec.y - this.startVec.y, 2) + Math.pow( this.endVec.x - this.startVec.x, 2));
+    }
+
+//    alert(distance);
+
+    if(distance <= circle.radius){
+
+        var WallVecNormalize = WallVec.normalize();
+        var WallVecNormalNormalize = WallVec.normal();
+
+
+    }
 
 };
 

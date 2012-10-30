@@ -9,10 +9,10 @@
     var context = canvas.getContext("2d");
 
 
-    var myCircle = new Circle(wd/5, hg/5, 20);
+    var myCircle = new Circle(200, 20, 20);
     var myWall = new Wall();
-    myWall.startVec = new Vector( 100, 100);
-    myWall.endVec = new Vector( 200, 300);
+    myWall.startVec = new Vector( 100, 200);
+    myWall.endVec = new Vector( 400, 300);
 
     //------------
 
@@ -21,13 +21,24 @@
 
     var lastTime = new Date().getTime();
 
+//    myWall.collideCircle(myCircle);
+    var tempVelocity = 100;
+    var tempTheta = 90 / 180 * Math.PI;
+
     loop();
 
 
     function loop(){
 
         curTime = new Date().getTime();
-        dt = curTime - lastTime;
+        dt = (curTime - lastTime)/1000;
+
+        myCircle.x += tempVelocity * Math.cos(tempTheta) * dt;
+        myCircle.y += tempVelocity * Math.sin(tempTheta) * dt;
+
+        myWall.collideCircle(myCircle);
+
+        //-------------------------
 
         context.clearRect(0, 0, wd, hg);
 
