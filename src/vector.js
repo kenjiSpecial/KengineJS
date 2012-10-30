@@ -10,6 +10,25 @@ Vector.prototype.add = function(x, y){
     this.y += y;
 };
 
+Vector.prototype.addVector = function( _vec ){
+    var vector = new Vector(this.x, this.y);
+    vector.x += _vec.x;
+    vector.y += _vec.y;
+    return vector;
+}
+
+Vector.prototype.multiple = function(val){
+    this.x *= val;
+    this.y *= val;
+}
+
+Vector.prototype.multipleVector = function( val){
+    var vector = new Vector(this.x, this.y);
+    vector.x *= val;
+    vector.y *= val;
+    return vector;
+}
+
 Vector.prototype.edge = function(_vec){
     var v = new Vector();
     v.x = this.x - _vec.x;
@@ -283,6 +302,8 @@ var Wall = function(){
     this.startVec = undefined;
     this.endVec = undefined;
 
+    this.velocity = undefined;
+
     this.strokeColor = '#000';
     this.width = 1;
 };
@@ -328,9 +349,19 @@ Wall.prototype.collideCircle = function(circle){
 
     if(distance <= circle.radius){
 
-        var WallVecNormalize = WallVec.normalize();
+        var WallVecHorizontalNormalize = WallVec.normalize();
         var WallVecNormalNormalize = WallVec.normal();
 
+        var Wall_Horizontal_Val = WallVecHorizontalNormalize.dotProduct(circle.velocity);
+        var Wall_Normal_Val = WallVecNormalNormalize.dotProduct(circle.velocity);
+
+        Wall_Normal_Val *= - 1;
+        var newHorizontalVec = WallVecHorizontalNormalize.multipleVector(Wall_Horizontal_Val);
+        var newNormalVec = WallVecNormalNormalize.multipleVector(Wall_Normal_Val);
+
+        var New_velocity = newHorizontalVec.addVector(newNormalVec);
+
+        circle.velocity = New_velocity;
 
     }
 
