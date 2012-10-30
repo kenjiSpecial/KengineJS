@@ -355,7 +355,7 @@ Wall.prototype.collideCircle = function(circle){
         var Wall_Horizontal_Val = WallVecHorizontalNormalize.dotProduct(circle.velocity);
         var Wall_Normal_Val = WallVecNormalNormalize.dotProduct(circle.velocity);
 
-        Wall_Normal_Val *= - 1;
+        Wall_Normal_Val *= - .4;
         var newHorizontalVec = WallVecHorizontalNormalize.multipleVector(Wall_Horizontal_Val);
         var newNormalVec = WallVecNormalNormalize.multipleVector(Wall_Normal_Val);
 
