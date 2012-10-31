@@ -20,8 +20,8 @@
     myContext.stroke();
     myContext.closePath();
 
-    myContext.font = '18px Calibri';
+    myContext.font = '18px sans-serif';
     myContext.fillStyle = '#000000';
-    myContext.fillText("Vec: (x, y): ( 200, 300)", 220, 300);
+    myContext.fillText("Vector: (x, y): ( 200, 300)", 220, 300);
 
 })();
