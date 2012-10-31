@@ -2,6 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5767957d-0ba4-4630-9620-f0908815418f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/movement/circle_movemnt/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/movement/circle_movemnt/script.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/example/collision_deetection_circle/index.html" afterPath="$PROJECT_DIR$/example/collision/collision_deetection_circle/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/example/collision_deetection_circle/script.js" afterPath="$PROJECT_DIR$/example/collision/collision_deetection_circle/script.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/example/collision_deetection_rectangle/index.html" afterPath="$PROJECT_DIR$/example/collision/collision_deetection_rectangle/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/example/collision_deetection_rectangle/script.js" afterPath="$PROJECT_DIR$/example/collision/collision_deetection_rectangle/script.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/example/collision_slope_detection/index.html" afterPath="$PROJECT_DIR$/example/collision/collision_slope_detection/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/example/collision_slope_detection/script.js" afterPath="$PROJECT_DIR$/example/collision/collision_slope_detection/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/vector.js" afterPath="$PROJECT_DIR$/src/vector.js" />
     </list>
     <ignored path="KengineJS.iws" />
@@ -21,70 +30,28 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/example/collision_slope_detection/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="32" column="9" selection-start="818" selection-end="818" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/example/collision_slope_detection/script.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="6" column="23" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="vector.js" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/vector.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="357" column="31" selection-start="8553" selection-end="8553" vertical-scroll-proportion="0.6636005">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/example/collision_slope_detection/script.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="35" column="20" selection-start="708" selection-end="708" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/example/collision_deetection_rectangle/script.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="97" column="33" selection-start="2399" selection-end="2399" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="vector.js" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/vector.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="27" column="10" selection-start="531" selection-end="531" vertical-scroll-proportion="0.5676741">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/movement/circle_movemnt/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="20" selection-start="1087" selection-end="1087" vertical-scroll-proportion="-22.64">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/example/movement/circle_movemnt/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="4" selection-start="374" selection-end="374" vertical-scroll-proportion="0.20671834">
+              <folding>
+                <element signature="e#0#164#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -106,6 +73,11 @@
         <option value="$PROJECT_DIR$/example/collision_slope_detection/index.html" />
         <option value="$PROJECT_DIR$/example/collision_slope_detection/script.js" />
         <option value="$PROJECT_DIR$/src/vector.js" />
+        <option value="$PROJECT_DIR$/example/collision/collision_slope_detection/index.html" />
+        <option value="$PROJECT_DIR$/example/collision/collision_deetection_rectangle/index.html" />
+        <option value="$PROJECT_DIR$/example/collision/collision_deetection_circle/index.html" />
+        <option value="$PROJECT_DIR$/example/movement/circle_movemnt/index.html" />
+        <option value="$PROJECT_DIR$/example/movement/circle_movemnt/script.js" />
       </list>
     </option>
   </component>
@@ -139,6 +111,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -185,7 +158,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
+              <option name="myItemId" value="movement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="circle_movemnt" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -200,6 +177,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KengineJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KengineJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="collision" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -221,6 +216,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="collision" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="collision_deetection_rectangle" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -239,20 +238,23 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="collision" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="collision_deetection_circle" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="Settings.JavaScript.Linters.JSLint" />
-    <property name="FullScreen" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
@@ -262,6 +264,7 @@
       <recent name="$PROJECT_DIR$/example/common" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/example/collision" />
       <recent name="$PROJECT_DIR$/example/common/img" />
     </key>
   </component>
@@ -322,7 +325,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1298518" sideWeight="0.67065215" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19689485" sideWeight="0.67065215" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -394,28 +397,14 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/vector.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="285" column="30" selection-start="6247" selection-end="6247" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/collision_slope_detection/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="9" selection-start="818" selection-end="818" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/collision_slope_detection/script.js">
+    <entry file="file://$PROJECT_DIR$/example/collision/collision_slope_detection/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="17" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/collision_deetection_rectangle/script.js">
+    <entry file="file://$PROJECT_DIR$/example/collision/collision_deetection_rectangle/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="97" column="33" selection-start="2399" selection-end="2399" vertical-scroll-proportion="0.0">
           <folding />
@@ -429,21 +418,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/collision_deetection_rectangle/script.js">
+    <entry file="file://$PROJECT_DIR$/example/collision/collision_deetection_rectangle/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="9" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/collision_deetection_rectangle/index.html">
+    <entry file="file://$PROJECT_DIR$/example/collision/collision_deetection_rectangle/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="4" selection-start="134" selection-end="411" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/collision_deetection_circle/script.js">
+    <entry file="file://$PROJECT_DIR$/example/collision/collision_deetection_circle/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="44" selection-start="980" selection-end="980" vertical-scroll-proportion="0.0">
           <folding />
@@ -457,52 +446,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/collision_deetection_rectangle/index.html">
+    <entry file="file://$PROJECT_DIR$/example/collision/collision_deetection_circle/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="676" vertical-scroll-proportion="-0.0">
+        <state line="63" column="0" selection-start="1584" selection-end="1584" vertical-scroll-proportion="1.3404255">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/collision_deetection_circle/index.html">
+    <entry file="file://$PROJECT_DIR$/example/collision/collision_deetection_circle/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="8" selection-start="407" selection-end="603" vertical-scroll-proportion="0.5097345">
+        <state line="32" column="12" selection-start="1029" selection-end="1029" vertical-scroll-proportion="0.71708685">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/collision_deetection_circle/script.js">
+    <entry file="file://$PROJECT_DIR$/example/collision/collision_deetection_rectangle/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="44" selection-start="980" selection-end="980" vertical-scroll-proportion="1.0576271">
+        <state line="32" column="12" selection-start="1031" selection-end="1031" vertical-scroll-proportion="0.71708685">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/collision_slope_detection/index.html">
+    <entry file="file://$PROJECT_DIR$/example/collision/collision_slope_detection/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="9" selection-start="818" selection-end="818" vertical-scroll-proportion="0.0">
+        <state line="32" column="12" selection-start="1028" selection-end="1028" vertical-scroll-proportion="0.6956522">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/collision_deetection_rectangle/script.js">
+    <entry file="file://$PROJECT_DIR$/example/collision/collision_slope_detection/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="20" selection-start="708" selection-end="708" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/collision/collision_deetection_rectangle/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="97" column="33" selection-start="2399" selection-end="2399" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/collision_slope_detection/script.js">
+    <entry file="file://$PROJECT_DIR$/src/vector.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="23" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0">
+        <state line="359" column="54" selection-start="8615" selection-end="8615" vertical-scroll-proportion="0.6215506">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/vector.js">
+    <entry file="file://$PROJECT_DIR$/example/movement/circle_movemnt/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="357" column="31" selection-start="8553" selection-end="8553" vertical-scroll-proportion="0.6636005">
+        <state line="38" column="20" selection-start="1087" selection-end="1087" vertical-scroll-proportion="-22.64">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/movement/circle_movemnt/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="4" selection-start="374" selection-end="374" vertical-scroll-proportion="0.20671834">
+          <folding>
+            <element signature="e#0#164#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

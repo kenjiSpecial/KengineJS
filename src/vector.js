@@ -306,6 +306,8 @@ var Wall = function(){
 
     this.strokeColor = '#000';
     this.width = 1;
+
+    this.reflection_coefficient = -1;
 };
 
 Wall.prototype.createPath = function(context){
@@ -355,14 +357,13 @@ Wall.prototype.collideCircle = function(circle){
         var Wall_Horizontal_Val = WallVecHorizontalNormalize.dotProduct(circle.velocity);
         var Wall_Normal_Val = WallVecNormalNormalize.dotProduct(circle.velocity);
 
-        Wall_Normal_Val *= - .4;
+        Wall_Normal_Val *= this.reflection_coefficient;
         var newHorizontalVec = WallVecHorizontalNormalize.multipleVector(Wall_Horizontal_Val);
         var newNormalVec = WallVecNormalNormalize.multipleVector(Wall_Normal_Val);
 
         var New_velocity = newHorizontalVec.addVector(newNormalVec);
 
         circle.velocity = New_velocity;
-
     }
 
 };
