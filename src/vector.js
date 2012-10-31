@@ -34,8 +34,11 @@ Vector.prototype.addVector = function( _vec ){
 }
 
 Vector.prototype.addScaledVector = function( vector, val){
-    this.x += vector.x * val;
-    this.y += vector.y * val;
+    var newVector = new Vector(this.x, this.y);
+    newVector.x += vector.x * val;
+    newVector.y += vector.y * val;
+
+    return newVector;
 }
 
 Vector.prototype.multiple = function(val){
