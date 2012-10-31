@@ -22,8 +22,8 @@
     var lastTime = new Date().getTime();
 
 //    myWall.collideCircle(myCircle);
-    var tempVelocity = 100;
-    var tempTheta = 90 / 180 * Math.PI;
+    var tempVelocity = new Vector(0, 100);
+    myCircle.velocity = tempVelocity;
 
     loop();
 
@@ -33,8 +33,8 @@
         curTime = new Date().getTime();
         dt = (curTime - lastTime)/1000;
 
-        myCircle.x += tempVelocity * Math.cos(tempTheta) * dt;
-        myCircle.y += tempVelocity * Math.sin(tempTheta) * dt;
+        myCircle.x += myCircle.velocity.x * dt;
+        myCircle.y += myCircle.velocity.y * dt;
 
         myWall.collideCircle(myCircle);
 
