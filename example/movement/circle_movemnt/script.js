@@ -14,7 +14,7 @@
     myCanvas.height = hg;
 
     var myContext = myCanvas.getContext("2d");
-    
+
     myContext.fillStyle = "#ffffff";
     myContext.fillRect(0, 0, wd, hg);
 
