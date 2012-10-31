@@ -2,54 +2,36 @@
 <html lang="en-US">
 <head>
     <meta charset="UTF-8">
-    <title>Easy Circle Movement Test::10/31/2012__8:08</title>
+    <title>Vector</title>
     <link rel="stylesheet" href="../../common/normalize.css">
+    <link rel="stylesheet" href="../../common/style.css">
+    <link rel="stylesheet" href="../../common/rainbow/blackboard.css">
     <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-    <style type="text/css">
-        body {
-            background-color: #999;
-            color: #ffffff;
-            background-image: url("../../common/img/dark_wood.png");
-        }
-
-        div#container {
-            width: 600px;
-            margin: 100px auto;
-        }
-
-        canvas {
-            -moz-box-shadow: 0px 0px 2px rgba(0, 0, 0, .6);
-            -webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, .6);
-            box-shadow: 0px 0px 2px rgba(0, 0, 0, .6);
-        }
-
-        h1{
-            font-family: 'Lato', sans-serif;
-
-            -webkit-text-shadow: 1px -1px 0 rgba(0, 0, 0, .1);
-            -moz-text-shadow: 1px -1px 0 rgba(0, 0, 0, .1);
-            text-shadow: 1px -1px 0 rgba(0, 0, 0, .1);
-        }
-
-        h1{
-            margin-bottom: 5px;
-        }
-
-        div{
-            margin-bottom: 45px;
-        }
-    </style>
 
 </head>
 <body>
 
 <div id="container">
-    <h1>Easy Circle Movement Test</h1>
-    <div>10/31/2012</div>
+    <h1>vector</h1>
+    <div id="date">10/31/2012</div>
     <canvas id="myCanvas"></canvas>
+    <div id="menu">
+        <div class="right"><a href="*">1.1 Vector Addiction &raquo</a></div>
+    </div>
+    <div class="clear"></div>
+
+    <h2>Code:</h2>
+    <pre><code data-language="javascript">var Vec = new Vector(200, 300);</code></pre>
+    <div class="back"><a href="../../">home</a></div>
 </div>
+
 <script type="text/javascript" src="../../common/requestAnim.js"></script>
 <script type="text/javascript" src="../../../src/vector.js"></script>
 <script type="text/javascript" src="script.js"></script>
+
+<script type="text/javascript" src="../../common/rainbow/rainbow.min.js"></script>
+<script type="text/javascript" src="../../common/rainbow/generic.js"></script>
+<script type="text/javascript" src="../../common/rainbow/javascript.js"></script>
+
 </body>
 </html>
