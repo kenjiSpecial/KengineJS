@@ -1,4 +1,20 @@
-//Vector object
+
+var Canvas_Context = function(wd, hg){
+    this.fillStyle = "#ffffff";
+    this.wd = wd;
+    this.hg = hg;
+};
+
+Canvas_Context.prototype.update_fill = function(context){
+    context.clearRect(0, 0, this.wd, this.hg);
+
+    context.fillStyle = this.fillStyle;
+    context.fillRect( 0, 0, this.wd, this.hg);
+};
+
+//-------------------
+//---Vector object---
+//-------------------
 
 var Vector = function(x, y){
     this.x = x;
@@ -15,6 +31,11 @@ Vector.prototype.addVector = function( _vec ){
     vector.x += _vec.x;
     vector.y += _vec.y;
     return vector;
+}
+
+Vector.prototype.addScaledVector = function( vector, val){
+    this.x += vector.x * val;
+    this.y += vector.y * val;
 }
 
 Vector.prototype.multiple = function(val){
@@ -66,9 +87,10 @@ Vector.prototype.dotProduct = function(vector){
 };
 
 
-//-------------
-//-------------
-//Polygon object
+
+//--------------------
+//-- Polygon object --
+//--------------------
 
 var Polygon = function(vectors){
     this.vectors = vectors;
@@ -193,32 +215,46 @@ Projection.prototype.overlap = function(projection){
 //Circle Object
 
 var Circle = function(x, y, radius){
-    this.x = x;
-    this.y = y;
+    this.mass = undefined;
+
+    this.positionVector = new Vector( x, y);
+    this.velocityVector = new Vector( 0, 0);
+    this.accelerationVector = new Vector( 0, 0);
+
     this.radius = radius;
+    this.strokeCheck = true;
+    this.fillCheck = true;
+
     this.strokeColor = '#000';
     this.fillColor = 'rgba(255, 255, 0, .6)'
 };
 
 Circle.prototype.createPath = function(context){
     context.beginPath();
-    context.arc(this.x, this.y, this.radius, 0, Math.PI * 2, false);
+    context.arc(this.positionVector.x, this.positionVector.y, this.radius, 0, Math.PI * 2, false);
     context.closePath();
 };
 
 Circle.prototype.fill = function(context){
     context.save();
-    context.fillStyle = this.fillColor;
-    context.strokeStyle = this.strokeColor;
     this.createPath(context);
-    context.stroke();
-    context.fill();
+    if(this.fillCheck){
+        context.fillStyle = this.fillColor;
+        context.fill();
+    }
+//    -----------------
+    if(this.strokeCheck){
+        context.strokeStyle = this.strokeColor;
+        context.stroke();
+    }
+
     context.restore();
 };
 
+
+
 Circle.prototype.move = function(dx, dy){
-    this.x += dx;
-    this.y += dy;
+    this.positionVector.add(dx, dy);
 };
 
 Circle.prototype.collideWidth = function(shape){
@@ -249,6 +285,17 @@ Circle.prototype.project = function(axis){
     scalars.push(dotProduct - this.radius);
     return new Projection(Math.min.apply(Math, scalars), Math.max.apply(Math, scalars));
 };
+
+Circle.prototype.update = function(dt){
+
+    if( this.mass !== undefined ){
+        this.accelerationVector.addScaledVector( this.Force, 1/this.mass);
+        this.velocityVector.addScaledVector( this.accelerationVector, dt);
+    }
+
+    this.positionVector.addScaledVector(this.velocityVector, dt);
+}
+
 
 function polygonCollidesWithCircle(polygon, circle){
     var closestPt = getPolygonPointClosestToCircle(polygon, circle);
