@@ -9,19 +9,20 @@
     myCanvas.height = hg;
 
     var myContext = myCanvas.getContext("2d");
-    myContext.fillStyle = "#ffffff";
+
+    myContext.fillStyle = "#fff";
     myContext.fillRect(0, 0, wd, hg);
 
-    var Vec = new Vector(200, 300);
+    var centerPtVector = new Vector( 200, 50);
+    var myCoordinate = new Coordinate( wd, hg, centerPtVector);
+    myCoordinate.draw(myContext);
 
-    myContext.beginPath();
-    myContext.moveTo(0, 0)
-    myContext.lineTo(Vec.x, Vec.y);
-    myContext.stroke();
-    myContext.closePath();
+    var my_vector = new Vector(200, 300);
 
-    myContext.font = '18px sans-serif';
-    myContext.fillStyle = '#000000';
-    myContext.fillText("Vector: (x, y): ( 200, 300)", 220, 300);
+    var arrowVectors = new Arrow(my_vector);
+    arrowVectors.setStartPt(myCoordinate.initVector);
+
+    arrowVectors.draw(myContext);
+    myCoordinate.setVector(myContext, my_vector);
 
 })();

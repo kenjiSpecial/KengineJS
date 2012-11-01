@@ -24,32 +24,46 @@
 
 
     var Vector01 = new Vector(100, 200);
-    var Vector02 = new Vector(45, 5);
-    var k = 10;
+    var Vector02 = new Vector(70, 40);
+    var k = 3;
 
     var vector03 = Vector01.addScaledVector( Vector02, k);
 
-    myContext.beginPath();
-    myContext.moveTo(0, 0);
-    myContext.lineWidth = 3;
-    myContext.lineTo(vector03.x, vector03.y);
-    myContext.stroke();
-    myContext.closePath();
+    var centerPtVector = new Vector( 50, 50);
 
-    myContext.beginPath();
-    myContext.lineWidth = 1;
-    myContext.moveTo( 0, 0);
-    myContext.lineTo( Vector01.x, Vector01.y);
-    myContext.lineTo( vector03.x, vector03.y);
-    myContext.stroke();
-    myContext.closePath();
+    var myCoordinate = new Coordinate( wd, hg, centerPtVector);
+    myCoordinate.draw(myContext);
 
-    myContext.font = '18px sans-serif';
+    //arrow01;
+    var arrowVector01 = new Arrow(Vector01);
+    arrowVector01.setStartPt(centerPtVector);
+    arrowVector01.color = "#999999";
 
-    myContext.fillStyle = '#000000';
-    myContext.fillText("(x, y): ( 100, 200)", 100, 150);
-    myContext.fillText("(x, y): ( 10 * 45, 10 * 3)", 180, 250);
-    myContext.fillText("(x, y): ( 550, 250)", 300, 100);
+    arrowVector01.draw(myContext);
 
+    //arrow02
+    newCenterVector = centerPtVector;
+    for(var i = 0; i < k; i++){
+        if(i !== 0){
+            newCenterVector = newCenterVector.addVector(Vector02);
+        }
 
+        var arrowVector02 = new Arrow(Vector02);
+        arrowVector02.setStartPt(newCenterVector);
+        if(i == 0){
+            arrowVector02.color = "#999999";
+        }else{
+            arrowVector02.color = "#dddddd";
+        }
+
+        arrowVector02.draw(myContext);
+    }
+
+    var arrowVector03 = new Arrow(vector03);
+    arrowVector03.setStartPt(centerPtVector);
+    arrowVector03.draw(myContext);
+
+    myCoordinate.setVector(myContext, Vector01);
+    myCoordinate.setVector(myContext, Vector02);
+    myCoordinate.setVector(myContext, vector03);
 })();
