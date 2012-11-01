@@ -22,6 +22,16 @@
     myContext.fillStyle = "#fff";
     myContext.fillRect(0, 0, wd, hg);
 
+    var centerPtVector = new Vector( 200, 100);
+    var myCoordinate = new Coordinate( wd, hg, centerPtVector);
+    myCoordinate.draw(myContext);
 
+    var my_vector = new Vector(300, 150);
+
+    var arrowVectors = new Arrow(my_vector);
+    arrowVectors.setStartPt(myCoordinate.initVector);
+
+    arrowVectors.draw(myContext);
+    myCoordinate.setVector(myContext, my_vector);
 
 })();
