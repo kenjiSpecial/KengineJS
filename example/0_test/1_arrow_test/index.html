@@ -2,7 +2,7 @@
 <html lang="en-US">
 <head>
     <meta charset="UTF-8">
-    <title>Vector Normal</title>
+    <title>Arrow Test</title>
     <link rel="stylesheet" href="../../common/css/normalize.css">
     <link rel="stylesheet" href="../../common/css/style.css">
     <link rel="stylesheet" href="../../common/rainbow/blackboard.css">
@@ -11,13 +11,9 @@
 <body>
 
 <div id="container">
-    <h1>1.5 Vector Magnitude and Dot Product</h1>
+    <h1>0.1. Arrow Test</h1>
     <div id="date">11/01/2012</div>
-    <div class="equation">
-        <img src="../../common/img/math/" alt="">
-        <!--<a href="http://www.codecogs.com/eqnedit.php></a>-->
-        <!--<a href="http://www.codecogs.com/eqnedit.php?latex=\dpi{120} \binom{a}{b} @plus; \binom{c}{d} = \binom{a @plus; c}{b @plus; d}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\dpi{120} \binom{a}{b} + \binom{c}{d} = \binom{a + c}{b + d}" title="\dpi{120} \binom{a}{b} + \binom{c}{d} = \binom{a + c}{b + d}" /></a>-->
-    </div>
+
     <canvas id="myCanvas"></canvas>
     <div id="menu">
         <div class="left"><a href="*">&laquo ****</a></div>
@@ -26,11 +22,15 @@
     <div class="clear"></div>
 
     <h2>Code:</h2>
-    <pre><code data-language="javascript"></code></pre>
+    <pre><code data-language="javascript">var arrowVectors = new Arrow(new Vector(100, 100))
+arrowVectors.setStartPt(new Vector(200, 300));
+
+arrowVectors.draw(myContext);</code></pre>
     <div class="back"><a href="../../">home</a></div>
 </div>
 
 <script type="text/javascript" src="../../common/js/requestAnim.js"></script>
+<script type="text/javascript" src="../../common/js/arrow.js"></script>
 <script type="text/javascript" src="../../../src/vector.js"></script>
 <script type="text/javascript" src="script.js"></script>
 

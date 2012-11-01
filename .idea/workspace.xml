@@ -1,10 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5767957d-0ba4-4630-9620-f0908815418f" name="Default" comment="update">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/1_vector/5_vector_normal/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/common/arrow.js" />
+    <list default="true" id="5767957d-0ba4-4630-9620-f0908815418f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/0_test/1_arrow_test/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/0_test/2_coordinate_test/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/0_test/2_coordinate_test/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/common/js/arrow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/common/js/coordinate.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/example/common/arrow.js" afterPath="$PROJECT_DIR$/example/0_test/1_arrow_test/script.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/example/common/normalize.css" afterPath="$PROJECT_DIR$/example/common/css/normalize.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/example/common/requestAnim.js" afterPath="$PROJECT_DIR$/example/common/js/requestAnim.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/example/common/style.css" afterPath="$PROJECT_DIR$/example/common/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/1_vector/1_vector/index.html" afterPath="$PROJECT_DIR$/example/1_vector/1_vector/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/1_vector/2_vector_addition/index.html" afterPath="$PROJECT_DIR$/example/1_vector/2_vector_addition/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/1_vector/3_vector_addScaledVector/index.html" afterPath="$PROJECT_DIR$/example/1_vector/3_vector_addScaledVector/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/1_vector/4_vector_magnitude_dot_product/index.html" afterPath="$PROJECT_DIR$/example/1_vector/4_vector_magnitude_dot_product/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/1_vector/5_vector_normal/index.html" afterPath="$PROJECT_DIR$/example/1_vector/5_vector_normal/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/collision/collision_deetection_circle/index.html" afterPath="$PROJECT_DIR$/example/collision/collision_deetection_circle/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/collision/collision_deetection_rectangle/index.html" afterPath="$PROJECT_DIR$/example/collision/collision_deetection_rectangle/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/collision/collision_slope_detection/index.html" afterPath="$PROJECT_DIR$/example/collision/collision_slope_detection/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/index.html" afterPath="$PROJECT_DIR$/example/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/movement/circle_movemnt/index.html" afterPath="$PROJECT_DIR$/example/movement/circle_movemnt/index.html" />
     </list>
     <ignored path="KengineJS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,35 +40,54 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/1_vector/5_vector_normal/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="29" selection-start="1225" selection-end="1225" vertical-scroll-proportion="-16.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="arrow.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/example/common/arrow.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/1_vector/4_vector_magnitude_dot_product/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="11" selection-start="81" selection-end="113" vertical-scroll-proportion="-2.56">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/example/0_test/2_coordinate_test/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="35" column="0" selection-start="1492" selection-end="1492" vertical-scroll-proportion="-22.4">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="coordinate.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/example/common/js/coordinate.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="25" column="2" selection-start="607" selection-end="607" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/example/0_test/2_coordinate_test/script.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="24" column="0" selection-start="440" selection-end="440" vertical-scroll-proportion="0.29327902">
+                  <folding>
+                    <element signature="e#0#156#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="coordinate.js" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/example/common/js/coordinate.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="25" column="2" selection-start="607" selection-end="607" vertical-scroll-proportion="0.40733197">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -64,12 +100,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/example/movement/circle_movemnt/script.js" />
-        <option value="$PROJECT_DIR$/example/movement/circle_movemnt/index.html" />
-        <option value="$PROJECT_DIR$/example/temp.html" />
-        <option value="$PROJECT_DIR$/example/1_vector/1_vector/index.html" />
-        <option value="$PROJECT_DIR$/example/1_vector/1_vector/script.js" />
-        <option value="$PROJECT_DIR$/example/1_vector/2_vector_addition/script.js" />
         <option value="$PROJECT_DIR$/example/1_vector/3_vector_multiple/index.html" />
         <option value="$PROJECT_DIR$/example/common/style.css" />
         <option value="$PROJECT_DIR$/example/1_vector/3_vector_addScaledVector/index.html" />
@@ -80,14 +110,19 @@
         <option value="$PROJECT_DIR$/example/1_vector/4_vector_magnitude_dot_product/index.html" />
         <option value="$PROJECT_DIR$/example/1_vector/4_vector_magnitude_dot_product/script.js" />
         <option value="$PROJECT_DIR$/example/1_vector/5_vector_normal/index.html" />
+        <option value="$PROJECT_DIR$/example/common/arrow.js" />
+        <option value="$PROJECT_DIR$/example/0_test/1_arrow_test/script.js" />
+        <option value="$PROJECT_DIR$/example/0_test/1_arrow_test/index.html" />
+        <option value="$PROJECT_DIR$/example/common/coordinate.js" />
+        <option value="$PROJECT_DIR$/example/0_test/2_coordinate_test/index.html" />
+        <option value="$PROJECT_DIR$/example/0_test/2_coordinate_test/script.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="14" />
-    <option name="y" value="72" />
-    <option name="width" value="1617" />
-    <option name="height" value="1014" />
+    <option name="y" value="22" />
+    <option name="width" value="1920" />
+    <option name="height" value="1103" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -216,6 +251,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KengineJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KengineJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="1_vector" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -264,6 +321,72 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KengineJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KengineJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1_vector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1_vector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KengineJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KengineJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="0_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2_coordinate_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KengineJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KengineJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="0_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1_arrow_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -278,13 +401,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/example/0_test/2_coordinate_test" />
+      <recent name="$PROJECT_DIR$/example/0_test/1_arrow_test" />
       <recent name="$PROJECT_DIR$/example/1_vector/5_vector_normal" />
       <recent name="$PROJECT_DIR$/example/1_vector/4_vector_magnitude_dot_product" />
       <recent name="$PROJECT_DIR$/example/1_vector/3_vector_multiple" />
-      <recent name="$PROJECT_DIR$/example/common/img" />
-      <recent name="$PROJECT_DIR$/example/common" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/example/common/css" />
+      <recent name="$PROJECT_DIR$/example/common/js" />
       <recent name="$PROJECT_DIR$/example/common/img" />
       <recent name="$PROJECT_DIR$/example" />
       <recent name="$PROJECT_DIR$/example/collision" />
@@ -337,27 +462,31 @@
       <created>1351619710679</created>
       <updated>1351619710679</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update the status&#10;">
+      <created>1351763428064</created>
+      <updated>1351763428064</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="14" y="72" width="1617" height="1014" extended-state="0" />
+    <frame x="0" y="22" width="1920" height="1103" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19636135" sideWeight="0.96754056" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16499737" sideWeight="0.67065215" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903865" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -398,7 +527,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update the status&#10;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -412,6 +541,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="update" />
+    <MESSAGE value="update the status&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -421,7 +551,7 @@
           <option name="timeStamp" value="1" />
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="796" />
+      <option name="time" value="965" />
     </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
@@ -437,59 +567,6 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/example/collision/collision_deetection_rectangle/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="33" selection-start="2399" selection-end="2399" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/movement/circle_movemnt/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="471" selection-end="840" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/movement/circle_movemnt/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="58" selection-start="1288" selection-end="1288" vertical-scroll-proportion="0.85597825" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/1_vector/1_vector/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="9" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/1_vector/1_vector/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="4" selection-start="466" selection-end="603" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/collision/collision_slope_detection/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="12" selection-start="1028" selection-end="1028" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/1_vector/2_vector_addition/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="29" selection-start="812" selection-end="812" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/1_vector/3_vector_addScaledVector/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="4" selection-start="1261" selection-end="1450" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/common/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="22" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example/1_vector/3_vector_addScaledVector/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="54" column="5" selection-start="158" selection-end="1273" vertical-scroll-proportion="0.0">
@@ -504,15 +581,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/1_vector/4_vector_magnitude_dot_product/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="26" selection-start="905" selection-end="905" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#163#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example/1_vector/2_vector_addition/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="0" selection-start="441" selection-end="571" vertical-scroll-proportion="0.39081746">
@@ -520,23 +588,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/1_vector/4_vector_magnitude_dot_product/index.html">
+    <entry file="file://$PROJECT_DIR$/example/1_vector/4_vector_magnitude_dot_product/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="11" selection-start="81" selection-end="113" vertical-scroll-proportion="-2.56">
+        <state line="39" column="26" selection-start="905" selection-end="905" vertical-scroll-proportion="0.5520717">
+          <folding>
+            <element signature="e#0#163#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/temp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="575" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/0_test/1_arrow_test/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="23" selection-start="454" selection-end="454" vertical-scroll-proportion="0.2224599">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/common/js/arrow.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="10" selection-start="751" selection-end="751" vertical-scroll-proportion="0.42231947">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example/1_vector/5_vector_normal/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="29" selection-start="1225" selection-end="1225" vertical-scroll-proportion="-16.0">
+        <state line="25" column="29" selection-start="1233" selection-end="1233" vertical-scroll-proportion="0.42372882">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/common/arrow.js">
+    <entry file="file://$PROJECT_DIR$/example/movement/circle_movemnt/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/0_test/1_arrow_test/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="528" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/1_vector/4_vector_magnitude_dot_product/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="11" selection-start="81" selection-end="113" vertical-scroll-proportion="0.06779661">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/1_vector/1_vector/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="7" selection-start="1413" selection-end="1413" vertical-scroll-proportion="0.6520376">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vector.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="440" selection-end="440" vertical-scroll-proportion="0.33023736">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/0_test/2_coordinate_test/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="0" selection-start="1492" selection-end="1492" vertical-scroll-proportion="-22.4">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/0_test/2_coordinate_test/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="440" selection-end="440" vertical-scroll-proportion="0.29327902">
+          <folding>
+            <element signature="e#0#156#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/common/js/coordinate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="2" selection-start="607" selection-end="607" vertical-scroll-proportion="0.40733197">
           <folding />
         </state>
       </provider>
