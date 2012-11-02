@@ -17,6 +17,8 @@ var Matrix = new function(){
     this.vals[2] = 0;
     this.vals[3] = 0;
     this.vals[4] = 1;
-    this.vals[5] = 2;
-
+    this.vals[5] = 0;
 };
+
+
+

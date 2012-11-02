@@ -1,22 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5767957d-0ba4-4630-9620-f0908815418f" name="Default" comment="update the status&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/1_vector/6_cross_product/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/1_vector/6_cross_product/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/matrix.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/common/img/math/01/img05.png" afterPath="$PROJECT_DIR$/example/common/img/math/01/img05.png" />
+    <list default="true" id="5767957d-0ba4-4630-9620-f0908815418f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/2_Matrix/1_matrix/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/2_Matrix/1_matrix/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/1_vector/1_vector/index.html" afterPath="$PROJECT_DIR$/example/1_vector/1_vector/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/1_vector/2_vector_addition/index.html" afterPath="$PROJECT_DIR$/example/1_vector/2_vector_addition/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/1_vector/3_vector_addScaledVector/index.html" afterPath="$PROJECT_DIR$/example/1_vector/3_vector_addScaledVector/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/1_vector/4_vector_magnitude_dot_product/index.html" afterPath="$PROJECT_DIR$/example/1_vector/4_vector_magnitude_dot_product/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/1_vector/5_vector_normal/index.html" afterPath="$PROJECT_DIR$/example/1_vector/5_vector_normal/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/1_vector/5_vector_normal/script.js" afterPath="$PROJECT_DIR$/example/1_vector/5_vector_normal/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/common/js/arrow.js" afterPath="$PROJECT_DIR$/example/common/js/arrow.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/common/js/coordinate.js" afterPath="$PROJECT_DIR$/example/common/js/coordinate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/temp.html" afterPath="$PROJECT_DIR$/example/temp.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/vector.js" afterPath="$PROJECT_DIR$/src/vector.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/matrix.js" afterPath="$PROJECT_DIR$/src/matrix.js" />
     </list>
     <ignored path="KengineJS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -68,7 +57,27 @@
           <file leaf-file-name="matrix.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/matrix.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="19" column="21" selection-start="401" selection-end="401" vertical-scroll-proportion="0.21181263">
+                <state line="24" column="0" selection-start="408" selection-end="408" vertical-scroll-proportion="0.3">
+                  <folding>
+                    <element signature="e#0#156#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/example/2_Matrix/1_matrix/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/example/2_Matrix/1_matrix/script.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="11" column="0" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0">
                   <folding>
                     <element signature="e#0#156#0" expanded="false" />
                   </folding>
@@ -110,7 +119,7 @@
           <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/example/1_vector/6_cross_product/script.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="34" column="4" selection-start="801" selection-end="853" vertical-scroll-proportion="0.36456212">
+                <state line="20" column="13" selection-start="379" selection-end="379" vertical-scroll-proportion="0.2281059">
                   <folding>
                     <element signature="e#0#156#0" expanded="false" />
                   </folding>
@@ -133,7 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/example/1_vector/2_vector_addition/script.js" />
         <option value="$PROJECT_DIR$/example/1_vector/3_vector_addScaledVector/script.js" />
         <option value="$PROJECT_DIR$/example/index.html" />
         <option value="$PROJECT_DIR$/example/common/js/coordinate.js" />
@@ -148,6 +156,7 @@
         <option value="$PROJECT_DIR$/example/temp.html" />
         <option value="$PROJECT_DIR$/example/1_vector/6_cross_product/script.js" />
         <option value="$PROJECT_DIR$/example/1_vector/6_cross_product/index.html" />
+        <option value="$PROJECT_DIR$/example/2_Matrix/1_matrix/script.js" />
         <option value="$PROJECT_DIR$/src/matrix.js" />
       </list>
     </option>
@@ -252,6 +261,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KengineJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KengineJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2_Matrix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1_matrix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KengineJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KengineJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1_vector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -335,13 +384,18 @@
       <created>1351787617990</created>
       <updated>1351787617990</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update the status&#10;">
+      <created>1351872592696</created>
+      <updated>1351872592696</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="1103" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -355,7 +409,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903865" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -420,7 +473,7 @@
           <option name="timeStamp" value="1" />
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="1489" />
+      <option name="time" value="1501" />
     </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
@@ -436,20 +489,6 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/example/1_vector/2_vector_addition/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="10" selection-start="583" selection-end="583" vertical-scroll-proportion="0.34215885">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/1_vector/1_vector/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="5" selection-start="660" selection-end="660" vertical-scroll-proportion="0.43991855">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example/0_test/2_coordinate_test/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="0" selection-start="440" selection-end="814" vertical-scroll-proportion="0.3910387">
@@ -527,15 +566,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/1_vector/6_cross_product/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="4" selection-start="801" selection-end="853" vertical-scroll-proportion="0.36456212">
-          <folding>
-            <element signature="e#0#156#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example/1_vector/6_cross_product/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="7" selection-start="2043" selection-end="2043" vertical-scroll-proportion="-26.88">
@@ -543,9 +573,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/example/2_Matrix/1_matrix/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/1_vector/6_cross_product/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="13" selection-start="379" selection-end="379" vertical-scroll-proportion="0.2281059">
+          <folding>
+            <element signature="e#0#156#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/2_Matrix/1_matrix/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#156#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/matrix.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="21" selection-start="401" selection-end="401" vertical-scroll-proportion="0.21181263">
+        <state line="24" column="0" selection-start="408" selection-end="408" vertical-scroll-proportion="0.3">
           <folding>
             <element signature="e#0#156#0" expanded="false" />
           </folding>
