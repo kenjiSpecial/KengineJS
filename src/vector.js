@@ -26,10 +26,22 @@ Vector.prototype.add = function(x, y){
     this.y += y;
 };
 
+Vector.prototype.subtract = function(x, y){
+    this.x += x;
+    this.y += y;
+}
+
 Vector.prototype.addVector = function( _vec ){
     var vector = new Vector(this.x, this.y);
     vector.x += _vec.x;
     vector.y += _vec.y;
+    return vector;
+}
+
+Vector.prototype.subtractVector = function( _vec ){
+    var vector = new Vector(this.x, this.y);
+    vector.x -= _vec.x;
+    vector.y -= _vec.y;
     return vector;
 }
 
@@ -42,8 +54,12 @@ Vector.prototype.addScaledVector = function( vector, val){
 }
 
 Vector.prototype.multiple = function(val){
-    this.x *= val;
-    this.y *= val;
+    var temVector = new Vector(this.x, this.y);
+
+    temVector.x *= val;
+    temVector.y *= val;
+
+    return temVector;
 }
 
 Vector.prototype.multipleVector = function( val){
@@ -89,6 +105,9 @@ Vector.prototype.dotProduct = function(vector){
     return (this.x * vector.x + this.y * vector.y);
 };
 
+Vector.prototype.crossProduct = function(vector){
+    return this.x * vector.y - this.y * vector.x;
+};
 
 
 //--------------------

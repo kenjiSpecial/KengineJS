@@ -2,7 +2,7 @@
 <html lang="en-US">
 <head>
     <meta charset="UTF-8">
-    <title>Vector Normal</title>
+    <title>Vector Normal::KenjineJS</title>
     <link rel="stylesheet" href="../../common/css/normalize.css">
     <link rel="stylesheet" href="../../common/css/style.css">
     <link rel="stylesheet" href="../../common/rainbow/blackboard.css">
@@ -12,7 +12,7 @@
 
 <div id="container">
     <h1>1.5 Vector Magnitude and Dot Product</h1>
-    <div id="date">11/01/2012</div>
+    <div id="date">11/02/2012</div>
     <div class="equation">
         <img src="../../common/img/math/01/img05.png" alt="">
         <!--<a href="http://www.codecogs.com/eqnedit.php></a>-->
@@ -26,7 +26,16 @@
     <div class="clear"></div>
 
     <h2>Code:</h2>
-    <pre><code data-language="javascript"></code></pre>
+    <pre><code data-language="javascript">var Vector01 = new Vector(480, 200);
+var Vector02 = new Vector(100, 250);
+
+// normalizing
+var Vector01_Normalize = Vector01.normalize();
+// dot product
+var DotProduct = Vector02.dotProduct(Vector01);
+//
+var normalVector = Vector01.normal();
+    </code></pre>
     <div class="back"><a href="../../">home</a></div>
 </div>
 

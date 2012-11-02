@@ -52,3 +52,19 @@ Arrow.prototype.draw = function(context){
     context.closePath();
 
 };
+
+Arrow.prototype.auxiliary_line = function(context){
+    context.beginPath();
+    context.strokeStyle = "#cccccc";
+
+    if(this.startVec === undefined){
+        context.moveTo(0, 0);
+        context.lineTo(this.vector.x, this.vector.y);
+    }else{
+        context.moveTo(this.startVec.x, this.startVec.y);
+        context.lineTo(this.startVec.x + this.vector.x, this.startVec.y + this.vector.y);
+    }
+
+    context.stroke();
+    context.closePath();
+};

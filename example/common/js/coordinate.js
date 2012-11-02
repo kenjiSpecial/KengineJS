@@ -33,8 +33,11 @@ Coordinate.prototype.setVector = function (context, vector) {
     context.font = '14px sans-serif';
     context.fillStyle = '#999999';
 
-    context.fillText(vector.x.toString(), this.initVector.x + vector.x - 12, this.initVector.y - 5);
-    context.fillText(vector.y.toString(), this.initVector.x + 6, this.initVector.y + vector.y + 4);
+    var vector_posX = ((vector.x * 10)|0)/10;
+    var vector_posY = ((vector.y * 10)|0)/10;
+
+    context.fillText( vector_posX.toString(), this.initVector.x + vector.x - 12, this.initVector.y - 5);
+    context.fillText( vector_posY.toString(), this.initVector.x + 6, this.initVector.y + vector.y + 4);
 
 
 };
