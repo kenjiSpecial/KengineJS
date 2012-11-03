@@ -93,6 +93,6 @@
         arrow_after.setStartPt(centerPtVector);
         arrow_after.draw(myContext);
         coordinate.drawVector(myContext, arrow_after);
-    };
+    }
 
 })();

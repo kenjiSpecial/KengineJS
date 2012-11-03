@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5767957d-0ba4-4630-9620-f0908815418f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/2_Matrix/3_matrix_scale/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/2_Matrix/3_matrix_scale/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/2_Matrix/4_matrix_rotation/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/2_Matrix/4_matrix_rotation/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/2_Matrix/2_matrix_translation/index.html" afterPath="$PROJECT_DIR$/example/2_Matrix/2_matrix_translation/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/2_Matrix/2_matrix_translation/script.js" afterPath="$PROJECT_DIR$/example/2_Matrix/2_matrix_translation/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/common/js/coordinate.js" afterPath="$PROJECT_DIR$/example/common/js/coordinate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/2_Matrix/3_matrix_scale/script.js" afterPath="$PROJECT_DIR$/example/2_Matrix/3_matrix_scale/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/common/css/style.css" afterPath="$PROJECT_DIR$/example/common/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/common/js/arrow.js" afterPath="$PROJECT_DIR$/example/common/js/arrow.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/temp.html" afterPath="$PROJECT_DIR$/example/temp.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/matrix.js" afterPath="$PROJECT_DIR$/src/matrix.js" />
     </list>
@@ -29,28 +29,41 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/example/2_Matrix/4_matrix_rotation/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="112" column="55" selection-start="3723" selection-end="3723" vertical-scroll-proportion="0.9173127">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="matrix.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/matrix.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="15" selection-start="878" selection-end="878" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#156#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/2_Matrix/4_matrix_rotation/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="57" selection-start="1364" selection-end="1364" vertical-scroll-proportion="-8.96">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/2_Matrix/3_matrix_scale/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="0" selection-start="1460" selection-end="1509" vertical-scroll-proportion="-16.64">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/example/2_Matrix/2_matrix_translation/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="0" selection-start="1465" selection-end="1465" vertical-scroll-proportion="0.53532606">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/2_Matrix/2_matrix_translation/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="10" selection-start="171" selection-end="389" vertical-scroll-proportion="0.0">
+            <state line="31" column="46" selection-start="1345" selection-end="1590" vertical-scroll-proportion="-13.4">
               <folding />
             </state>
           </provider>
@@ -59,16 +72,7 @@
       <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/2_Matrix/3_matrix_scale/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="22" selection-start="1369" selection-end="1376" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/2_Matrix/1_matrix/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="899" selection-end="899" vertical-scroll-proportion="0.0">
+            <state line="95" column="5" selection-start="2568" selection-end="2568" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -87,22 +91,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/example/common/css/style.css" />
-        <option value="$PROJECT_DIR$/example/1_vector/5_vector_normal/script.js" />
-        <option value="$PROJECT_DIR$/example/1_vector/3_vector_addScaledVector/script.js" />
-        <option value="$PROJECT_DIR$/example/1_vector/2_vector_addition/script.js" />
-        <option value="$PROJECT_DIR$/example/1_vector/1_vector/script.js" />
-        <option value="$PROJECT_DIR$/example/0_test/2_coordinate_test/script.js" />
         <option value="$PROJECT_DIR$/example/2_Matrix/1_matrix/index.html" />
         <option value="$PROJECT_DIR$/example/2_Matrix/1_matrix/script.js" />
         <option value="$PROJECT_DIR$/example/1_vector/6_cross_product/index.html" />
         <option value="$PROJECT_DIR$/example/common/js/coordinate.js" />
-        <option value="$PROJECT_DIR$/src/matrix.js" />
-        <option value="$PROJECT_DIR$/example/temp.html" />
         <option value="$PROJECT_DIR$/example/2_Matrix/2_matrix_translation/script.js" />
-        <option value="$PROJECT_DIR$/example/2_Matrix/3_matrix_scale/script.js" />
         <option value="$PROJECT_DIR$/example/2_Matrix/3_matrix_scale/index.html" />
         <option value="$PROJECT_DIR$/example/2_Matrix/2_matrix_translation/index.html" />
+        <option value="$PROJECT_DIR$/example/2_Matrix/3_matrix_scale/script.js" />
+        <option value="$PROJECT_DIR$/example/temp.html" />
+        <option value="$PROJECT_DIR$/example/common/js/arrow.js" />
+        <option value="$PROJECT_DIR$/src/matrix.js" />
+        <option value="$PROJECT_DIR$/example/common/css/style.css" />
+        <option value="$PROJECT_DIR$/example/2_Matrix/4_rotation/script.js" />
+        <option value="$PROJECT_DIR$/example/2_Matrix/4_rotation/index.html" />
+        <option value="$PROJECT_DIR$/example/2_Matrix/4_matrix_rotation/index.html" />
+        <option value="$PROJECT_DIR$/example/2_Matrix/4_matrix_rotation/script.js" />
       </list>
     </option>
   </component>
@@ -262,115 +266,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KengineJS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KengineJS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="math" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="02" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KengineJS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KengineJS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="math" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KengineJS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KengineJS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coordinate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KengineJS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KengineJS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KengineJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KengineJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2_Matrix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4_matrix_rotation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -411,32 +329,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="2_Matrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2_matrix_translation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KengineJS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KengineJS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2_Matrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1_matrix" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -495,11 +387,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/example/2_Matrix/4_rotation" />
       <recent name="$PROJECT_DIR$/example/2_Matrix/3_matrix_scale" />
       <recent name="$PROJECT_DIR$/example/2_Matrix/2_matrix_translation" />
       <recent name="$PROJECT_DIR$/example/0_test/2_coordinate_test" />
       <recent name="$PROJECT_DIR$/example/0_test/1_arrow_test" />
-      <recent name="$PROJECT_DIR$/example/1_vector/5_vector_normal" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/example/common/img/coordinate" />
@@ -577,14 +469,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32833958" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16372618" sideWeight="0.6716604" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16372618" sideWeight="0.6716604" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
@@ -674,65 +566,9 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/example/1_vector/1_vector/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="27" selection-start="631" selection-end="631" vertical-scroll-proportion="0.5319149">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/1_vector/2_vector_addition/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="27" selection-start="1945" selection-end="1945" vertical-scroll-proportion="0.81395346">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/1_vector/3_vector_addScaledVector/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="27" selection-start="1642" selection-end="1642" vertical-scroll-proportion="0.85529715">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/1_vector/5_vector_normal/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="27" selection-start="2980" selection-end="2980" vertical-scroll-proportion="0.8318003">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/2_Matrix/1_matrix/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="4" selection-start="1012" selection-end="1033" vertical-scroll-proportion="0.41304347">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/movement/circle_movemnt/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.0293725">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example/1_vector/6_cross_product/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="35" selection-start="702" selection-end="702" vertical-scroll-proportion="0.38451087">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/temp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="61" selection-start="233" selection-end="233" vertical-scroll-proportion="0.13445379">
           <folding />
         </state>
       </provider>
@@ -744,15 +580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/matrix.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="39" selection-start="1234" selection-end="1234" vertical-scroll-proportion="0.7648579">
-          <folding>
-            <element signature="e#0#156#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example/2_Matrix/1_matrix/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="0" selection-start="899" selection-end="899" vertical-scroll-proportion="0.0">
@@ -760,31 +587,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/2_Matrix/3_matrix_scale/script.js">
+    <entry file="file://$PROJECT_DIR$/example/temp.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="22" selection-start="1369" selection-end="1376" vertical-scroll-proportion="0.0">
+        <state line="5" column="53" selection-start="159" selection-end="159" vertical-scroll-proportion="0.10869565">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/2_Matrix/3_matrix_scale/index.html">
+    <entry file="file://$PROJECT_DIR$/src/vector.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="1460" selection-end="1509" vertical-scroll-proportion="-16.64">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/2_Matrix/2_matrix_translation/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="10" selection-start="171" selection-end="389" vertical-scroll-proportion="0.0">
+        <state line="144" column="0" selection-start="3056" selection-end="3056" vertical-scroll-proportion="0.3153745">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example/2_Matrix/2_matrix_translation/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="1465" selection-end="1465" vertical-scroll-proportion="0.53532606">
+        <state line="30" column="62" selection-start="1372" selection-end="1372" vertical-scroll-proportion="0.4048913">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/common/js/arrow.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="18" selection-start="134" selection-end="134" vertical-scroll-proportion="-0.4883721">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/2_Matrix/2_matrix_translation/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="10" selection-start="171" selection-end="389" vertical-scroll-proportion="-0.9431524">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/1_vector/6_cross_product/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/common/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="108" column="35" selection-start="1473" selection-end="1473" vertical-scroll-proportion="0.4625323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/matrix.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="15" selection-start="878" selection-end="878" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#156#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/2_Matrix/4_matrix_rotation/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="57" selection-start="1364" selection-end="1364" vertical-scroll-proportion="-8.96">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/2_Matrix/3_matrix_scale/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="46" selection-start="1345" selection-end="1590" vertical-scroll-proportion="-13.4">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/2_Matrix/3_matrix_scale/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="5" selection-start="2568" selection-end="2568" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/2_Matrix/4_matrix_rotation/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="112" column="55" selection-start="3723" selection-end="3723" vertical-scroll-proportion="0.9173127">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

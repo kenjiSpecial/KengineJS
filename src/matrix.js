@@ -37,8 +37,8 @@ Matrix.prototype.scaling = function( scalingX, scalingY){
 Matrix.prototype.rotate = function( theta){
     this.vals[0] = Math.cos(theta);
     this.vals[1] = -Math.sin(theta);
-    this.vals[2] = Math.sin(theta);
-    this.vals[3] = Math.cos(theta);
+    this.vals[3] = Math.sin(theta);
+    this.vals[4] = Math.cos(theta);
 };
 
 Matrix.prototype.skewing = function(skewX, skewY){

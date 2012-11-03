@@ -3,6 +3,7 @@ var Arrow = function( _vector){
     this.startVec = undefined;
 
     this.color = '#000';
+    this.lineColor = "#cccccc";
 
     this.theta = Math.atan2( this.vector.y, this.vector.x);
 
@@ -53,9 +54,9 @@ Arrow.prototype.draw = function(context){
 
 };
 
-Arrow.prototype.auxiliary_line = function(context){
+Arrow.prototype.draw_auxiliary = function(context){
     context.beginPath();
-    context.strokeStyle = "#cccccc";
+    context.strokeStyle = this.lineColor;
 
     if(this.startVec === undefined){
         context.moveTo(0, 0);

@@ -105,3 +105,25 @@ div#canvas_div div.dg:hover{
 div#canvas_div div.close-button{
     width: 120px !important;
 }
+
+/*only available for index.html in 2_Matrix/4_rotation folder */
+
+div#matrix_scale{
+    position: relative;
+}
+
+div#matrix_scale div.close-button{
+    width: 260px !important;
+}
+
+div#matrix_scale div.dg{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 260px !important;
+    opacity: 0.25;
+}
+
+div#matrix_scale div.dg:hover{
+    opacity: .8;
+}
