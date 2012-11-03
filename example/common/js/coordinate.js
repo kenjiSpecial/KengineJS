@@ -14,7 +14,7 @@ var Coordinate = function (wd, hg, vector) {
     this.ypos_image.src = '../../common/img/coordinate/y.png';
 };
 
-Coordinate.prototype.setVector = function (context, vector) {
+Coordinate.prototype.drawVector = function (context, vector) {
     context.strokeStyle = "#999999";
     context.lineWidth = 2;
 

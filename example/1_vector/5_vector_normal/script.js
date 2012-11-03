@@ -76,7 +76,7 @@
     normalVectorArrow.color = "#333333";
     normalVectorArrow.draw(myContext);
 
-    myCoordinate.setVector(myContext, Vector01);
-    myCoordinate.setVector(myContext, Vector01_To_Vector02_Vector);
+    myCoordinate.drawVector(myContext, Vector01);
+    myCoordinate.drawVector(myContext, Vector01_To_Vector02_Vector);
 
 })();

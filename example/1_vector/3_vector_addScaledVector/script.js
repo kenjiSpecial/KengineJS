@@ -63,7 +63,7 @@
     arrowVector03.setStartPt(centerPtVector);
     arrowVector03.draw(myContext);
 
-    myCoordinate.setVector(myContext, Vector01);
-    myCoordinate.setVector(myContext, Vector02);
-    myCoordinate.setVector(myContext, vector03);
+    myCoordinate.drawVector(myContext, Vector01);
+    myCoordinate.drawVector(myContext, Vector02);
+    myCoordinate.drawVector(myContext, vector03);
 })();

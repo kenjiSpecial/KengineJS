@@ -32,6 +32,6 @@
     arrowVectors.setStartPt(myCoordinate.initVector);
 
     arrowVectors.draw(myContext);
-    myCoordinate.setVector(myContext, my_vector);
+    myCoordinate.drawVector(myContext, my_vector);
 
 })();

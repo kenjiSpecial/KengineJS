@@ -84,3 +84,24 @@ div.equation{
 div.bottomMargin{
     height: 30px;
 }
+
+div#canvas_div{
+    position: relative;
+}
+
+div#canvas_div div.dg{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 120px !important;
+    opacity: 0.25;
+}
+
+div#canvas_div div.dg:hover{
+
+    opacity: 0.8;
+}
+
+div#canvas_div div.close-button{
+    width: 120px !important;
+}

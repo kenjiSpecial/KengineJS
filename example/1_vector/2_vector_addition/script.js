@@ -40,7 +40,7 @@
 
     arrowVector01.draw(myContext);
 
-    myCoordinate.setVector(myContext, Vector01);
+    myCoordinate.drawVector(myContext, Vector01);
 
     //arrow02:
     var arrowVector02 = new Arrow(Vector02);
@@ -67,7 +67,7 @@
 
     sudo_arrowVector02.draw(myContext);
 
-    myCoordinate.setVector(myContext, Vector02);
+    myCoordinate.drawVector(myContext, Vector02);
 
 
     //------------
@@ -77,7 +77,7 @@
     arrowVector03.setStartPt(centerPtVector);
     arrowVector03.draw(myContext);
 
-    myCoordinate.setVector(myContext, vector03);
+    myCoordinate.drawVector(myContext, vector03);
 
 
 })();

@@ -6,7 +6,7 @@
  * To change this template use File | Settings | File Templates.
  */
 
-var Matrix = new function(){
+var Matrix = function(){
     this.vals = [];
 //    the matrix;
 //    | [0] [1] [2] |
@@ -29,7 +29,7 @@ Matrix.prototype.translation = function( dx, dy){
     this.vals[5] = dy;
 };
 
-Matrix.prototype.translation = function( scalingX, scalingY){
+Matrix.prototype.scaling = function( scalingX, scalingY){
     this.vals[0] = scalingX;
     this.vals[4] = scalingY;
 };
@@ -49,5 +49,31 @@ Matrix.prototype.skewing = function(skewX, skewY){
 Matrix.prototype.apply_Vector = function( vector){
     var _vector = new Vector();
     _vector.x = this.vals[0] * vector.x + this.vals[1] * vector.y + this.vals[2];
-    _vector.y = this.vals[4] * vector.y + this.vals[5] * vector.y + this.vals[6];
+    _vector.y = this.vals[3] * vector.y + this.vals[4] * vector.y + this.vals[5];
+
+    return _vector;
+};
+
+Matrix.prototype.set_a = function(val){
+    this.vals[0] = val;
+};
+
+Matrix.prototype.set_b = function(val){
+    this.vals[1] = val;
+};
+
+Matrix.prototype.set_c = function(val){
+    this.vals[2] = val;
+};
+
+Matrix.prototype.set_d = function(val){
+    this.vals[3] = val;
+};
+
+Matrix.prototype.set_e = function(val){
+    this.vals[4] = val;
+};
+
+Matrix.prototype.set_f = function(val){
+    this.vals[5] = val;
 };
