@@ -50,6 +50,7 @@ Coordinate.prototype.draw = function (context) {
     var origin_pos_x = this.initVector.x - 20;
     var origin_pos_y = this.initVector.y - 20;
 
+    
     originImage.onload = function () {
         context.drawImage(originImage, origin_pos_x, origin_pos_y);
     };

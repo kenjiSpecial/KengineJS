@@ -49,7 +49,7 @@ Matrix.prototype.skewing = function(skewX, skewY){
 Matrix.prototype.apply_Vector = function( vector){
     var _vector = new Vector();
     _vector.x = this.vals[0] * vector.x + this.vals[1] * vector.y + this.vals[2];
-    _vector.y = this.vals[3] * vector.y + this.vals[4] * vector.y + this.vals[5];
+    _vector.y = this.vals[3] * vector.x + this.vals[4] * vector.y + this.vals[5];
 
     return _vector;
 };

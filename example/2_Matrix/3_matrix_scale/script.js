@@ -2,16 +2,16 @@
  * Created with JetBrains WebStorm.
  * User: saitoukenji
  * Date: 11/3/12
- * Time: 12:57 PM
+ * Time: 3:25 PM
  * To change this template use File | Settings | File Templates.
- * latex: \[{\color{White}  a' = Aa = \begin{bmatrix}
-1 & 0 & tx\\
- 0& 1 & ty\\
- 0& 0 & 1
-\end{bmatrix}\left( \begin{array}{c} a \\ b \\ 1 \end{array} \right) = \left( \begin{array}{c} a + tx \\ b+ty \\ 1 \end{array} \right)}\]
-
  */
-
+/*
+\[ a' = Aa = \begin{bmatrix}
+    sx & 0 & 0\\
+0& sy & 0\\
+0& 0 & 1
+\end{bmatrix}\left( \begin{array}{c} a \\ b \\ 1 \end{array} \right) = \left( \begin{array}{c} sx\cdot a \\ sy\cdot b \\ 1 \end{array} \right)\]
+*/
 
 (function(){
     var wd = 600;
@@ -33,21 +33,21 @@
     var coordinate = new Coordinate( wd, hg, centerPtVector);
 
     //setting GUI
-    var matrix_parameter = { tx: 0, ty:0};
+    var matrix_parameter = { sx: 1, sy:1};
 
     var gui = new dat.GUI({ autoPlace: false });
     var customContainer = document.getElementById('canvas_div');
     customContainer.appendChild(gui.domElement);
 
-    var tx = 0;
-    var ty = 0;
+    var sx = 1;
+    var sy = 1;
 
-    var value_tx = gui.add(matrix_parameter, 'tx', -400, 400).step(5);
-    var value_ty = gui.add(matrix_parameter, 'ty', -300, 300).step(5);
+    var value_tx = gui.add(matrix_parameter, 'sx', -10, 10).step(0.5);
+    var value_ty = gui.add(matrix_parameter, 'sy', -10, 10).step(0.5);
 
     value_tx.onChange(function(value) {
-        tx = value;
-        matrix.translation(tx, ty);
+        sx = value;
+        matrix.scaling(sx, sy);
         vector_after = matrix.apply_Vector(vector_before);
 
         myContext.clearRect( 0, 0, wd, hg);
@@ -57,9 +57,9 @@
     });
 
     value_ty.onChange(function(value) {
-        ty = value;
+        sy = value;
 
-        matrix.translation( tx, ty);
+        matrix.scaling( sx, sy);
         vector_after = matrix.apply_Vector(vector_before);
 
         myContext.clearRect( 0, 0, wd, hg);
