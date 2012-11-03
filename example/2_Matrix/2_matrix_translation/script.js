@@ -4,6 +4,13 @@
  * Date: 11/3/12
  * Time: 12:57 PM
  * To change this template use File | Settings | File Templates.
+ * latex:
+\[{\color{White}  a' = Aa = \begin{bmatrix}
+1 & 0 & tx\\
+ 0& 1 & ty\\
+ 0& 0 & 1
+\end{bmatrix}\left( \begin{array}{c} a \\ b \\ 1 \end{array} \right) = \left( \begin{array}{c} a + tx \\ b+ty \\ 1 \end{array} \right)}\]
+
  */
 
 
@@ -33,11 +40,15 @@
     var customContainer = document.getElementById('canvas_div');
     customContainer.appendChild(gui.domElement);
 
+    var tx = 0;
+    var ty = 0;
+
     var value_tx = gui.add(matrix_parameter, 'tx', -400, 400).step(5);
     var value_ty = gui.add(matrix_parameter, 'ty', -300, 300).step(5);
 
     value_tx.onChange(function(value) {
-        matrix.translation(value);
+        tx = value;
+        matrix.translation(tx, ty);
         vector_after = matrix.apply_Vector(vector_before);
 
         myContext.clearRect( 0, 0, wd, hg);
@@ -47,7 +58,9 @@
     });
 
     value_ty.onChange(function(value) {
-        matrix.translation(value);
+        ty = value;
+
+        matrix.translation( tx, ty);
         vector_after = matrix.apply_Vector(vector_before);
 
         myContext.clearRect( 0, 0, wd, hg);
