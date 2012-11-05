@@ -1,3 +1,4 @@
+//
 
 var Canvas_Context = function(wd, hg){
     this.fillStyle = "#ffffff";

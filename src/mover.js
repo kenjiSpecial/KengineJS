@@ -3,7 +3,7 @@ var Mover = function(){
 
     this.dt = 0;
     this.time_sum = undefined;
-    this.last_time = new Date().getTime();
+//    this.last_time = new Date().getTime();
 
     this.timer = false;
 };
@@ -13,7 +13,6 @@ Mover.prototype.startTime = function(){
 
     this.time_sum = 0;
     this.timer = true;
-    this.update();
 };
 
 Mover.prototype.update = function(){
@@ -34,6 +33,6 @@ Mover.prototype.stop = function(){
 }
 
 Mover.prototype.moveObject = function(){
-
+    this.shape.position
 };
 
