@@ -2,16 +2,9 @@
  * Created with JetBrains WebStorm.
  * User: saitoukenji
  * Date: 11/3/12
- * Time: 3:25 PM
+ * Time: 7:07 PM
  * To change this template use File | Settings | File Templates.
  */
-/*
-\[ a' = Aa = \begin{bmatrix}
-    sx & 0 & 0\\
-0& sy & 0\\
-0& 0 & 1
-\end{bmatrix}\left( \begin{array}{c} a \\ b \\ 1 \end{array} \right) = \left( \begin{array}{c} sx\cdot a \\ sy\cdot b \\ 1 \end{array} \right)\]
-*/
 
 (function(){
     var wd = 600;
@@ -24,7 +17,7 @@
     var myContext = myCanvas.getContext("2d");
 
 
-    var vector_before = new Vector( 50, 40);
+    var vector_before = new Vector( 240, 160);
     var matrix = new Matrix();
     var vector_after = matrix.apply_Vector(vector_before);
 
@@ -92,8 +85,7 @@
         var arrow_after = new Arrow(vector_after);
         arrow_after.setStartPt(centerPtVector);
         arrow_after.draw(myContext);
-
-        coordinate.drawVector(myContext, vector_after);
+        coordinate.drawVector(myContext, arrow_after);
     }
 
 })();

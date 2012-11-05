@@ -2,7 +2,7 @@
 <html lang="en-US">
 <head>
     <meta charset="UTF-8">
-    <title>Matrix::KenjineJS</title>
+    <title>TITLE::KenjineJS</title>
     <link rel="stylesheet" href="../../common/css/normalize.css">
     <link rel="stylesheet" href="../../common/css/style.css">
     <link rel="stylesheet" href="../../common/rainbow/blackboard.css">
@@ -11,11 +11,11 @@
 <body>
 
 <div id="container">
-    <h1>2.1. Matrix</h1>
+    <h1>0.0. TITLE</h1>
 
-    <div id="date">11/03/2012</div>
+    <div id="date">month/date/year</div>
     <div class="equation">
-        <img src="../../common/img/math/02/img01.png" alt="">
+        <img src="../../common/img/math/" alt="">
         <!--<a href="http://www.codecogs.com/eqnedit.php></a>-->
         <!--<a href="http://www.codecogs.com/eqnedit.php?latex=\dpi{120} \binom{a}{b} @plus; \binom{c}{d} = \binom{a @plus; c}{b @plus; d}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\dpi{120} \binom{a}{b} + \binom{c}{d} = \binom{a + c}{b + d}" title="\dpi{120} \binom{a}{b} + \binom{c}{d} = \binom{a + c}{b + d}" /></a>-->
     </div>
@@ -29,28 +29,18 @@
     <div class="clear"></div>
 
     <h2>Code:</h2>
-    <pre><code data-language="javascript">var vector_before = new Vector( 50, 40);
-
-//creating one matrix;
-var matrix = new Matrix();
-var vector_after = matrix.apply_Vector(vector_before);
-
-//setting the value to the matrix
-matrix.set_a(1.2);
-matrix.set_b( .2);
-matrix.set_c(42);
-matrix.set_d(.8);
-matrix.set_e( .5);
-matrix.set_f(12);</code></pre>
+    <pre><code data-language="javascript"></code></pre>
     <div class="back"><a href="../../">home</a></div>
 </div>
 </body>
 <script type="text/javascript" src="../../../src/requestAnim.js"></script>
 <script type="text/javascript" src="../../../src/vector.js"></script>
 <script type="text/javascript" src="../../../src/matrix.js"></script>
+<script type="text/javascript" src="../../../src/shape.js"></script>
+<script type="text/javascript" src="../../../src/requestAnim.js"></script>
+<script type="text/javascript" src="../../../src/mover.js"></script>
 <script type="text/javascript" src="../../common/js/coordinate.js"></script>
 <script type="text/javascript" src="../../common/js/arrow.js"></script>
-<script type="text/javascript" src="../../common/js/dat.gui.min.js"></script>
 <script type="text/javascript" src="script.js"></script>
 
 <script type="text/javascript" src="../../common/rainbow/rainbow.min.js"></script>
@@ -62,10 +52,13 @@ matrix.set_f(12);</code></pre>
     _gaq.push(['_setAccount', 'UA-28913085-1']);
     _gaq.push(['_trackPageview']);
 
-    (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    (function () {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
     })();
 
 </script>
