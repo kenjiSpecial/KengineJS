@@ -108,22 +108,22 @@ div#canvas_div div.close-button{
 
 /*only available for index.html in 2_Matrix/4_rotation folder */
 
-div#matrix_scale{
+div#large_canvas_div{
     position: relative;
 }
 
-div#matrix_scale div.close-button{
-    width: 260px !important;
+div#large_canvas_div div.close-button{
+    width: 200px !important;
 }
 
-div#matrix_scale div.dg{
+div#large_canvas_div div.dg{
     position: absolute;
     top: 0;
     right: 0;
-    width: 260px !important;
-    opacity: 0.25;
+    width: 200px !important;
+    opacity: 0.4;
 }
 
-div#matrix_scale div.dg:hover{
+div#large_canvas_div div.dg:hover{
     opacity: .8;
 }

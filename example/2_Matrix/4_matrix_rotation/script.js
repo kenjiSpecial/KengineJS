@@ -44,10 +44,10 @@ sin(\theta) &  cos(\theta) &0 \\
     var matrix_parameter = { theta: 0};
 
     var gui = new dat.GUI({ autoPlace: false });
-    var customContainer = document.getElementById('matrix_scale');
+    var customContainer = document.getElementById('large_canvas_div');
     customContainer.appendChild(gui.domElement);
 
-    var value_theta = gui.add(matrix_parameter, 'theta', -180, 180).step(1);
+    var value_theta = gui.add(matrix_parameter, 'theta', 0, 360).step(1);
 
     value_theta.onChange(function(value) {
 

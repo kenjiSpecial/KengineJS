@@ -17,7 +17,6 @@ var Force = function(){
 Force.prototype.calc_object = function(particle){
     this.force_zero();
 
-    console.log("Force::update()");
 };
 
  Force.prototype.force_zero = function(){

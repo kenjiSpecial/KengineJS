@@ -2,7 +2,7 @@
 <html lang="en-US">
 <head>
     <meta charset="UTF-8">
-    <title>TITLE::KenjineJS</title>
+    <title>Particle::KenjineJS</title>
     <link rel="stylesheet" href="../../common/css/normalize.css">
     <link rel="stylesheet" href="../../common/css/style.css">
     <link rel="stylesheet" href="../../common/rainbow/blackboard.css">
@@ -11,22 +11,40 @@
 <body>
 
 <div id="container">
-    <h1>0.0. TITLE</h1>
+    <h1>3.1. Particle</h1>
 
-    <div id="date">month/date/year</div>
+    <div id="date">11/06/2012</div>
     <div class="equation">
     </div>
-    <div id="canvas_div">
+    <div id="large_canvas_div">
         <canvas id="myCanvas"></canvas>
     </div>
     <div id="menu">
-        <div class="left"><a href="*">&laquo ****</a></div>
         <div class="right"><a href="*">**** &raquo</a></div>
     </div>
     <div class="clear"></div>
 
     <h2>Code:</h2>
-    <pre><code data-language="javascript"></code></pre>
+    <pre><code data-language="javascript">var position_vector = new Vector( 50,100);
+var velocity_vector = new Vector( 100, -200);
+var acceleration_vector = new Vector( 0, 0);
+
+//creating the particle
+var myParticle = new Particle();
+//creating the force
+var myForce = new TestForce();
+
+//setting the particle
+myParticle.position = position_vector;
+myParticle.velocity = velocity_vector;
+myParticle.acceleration = acceleration_vector;
+myParticle.mass = 20;
+
+//calculation of the force
+myForce.calc_object(myParticle);
+
+//calculation of the particle's position, velocity, acceleration.
+myParticle.update(myForce.force)</code></pre>
     <div class="back"><a href="../../">home</a></div>
 </div>
 </body>
@@ -38,9 +56,13 @@
 <script type="text/javascript" src="../../../src/shape.js"></script>
 <script type="text/javascript" src="../../../src/requestAnim.js"></script>
 <script type="text/javascript" src="../../../src/particle.js"></script>
+
 <script type="text/javascript" src="../../common/js/coordinate.js"></script>
 <script type="text/javascript" src="../../common/js/arrow.js"></script>
+<script type="text/javascript" src="../../common/js/dat.gui.min.js"></script>
+
 <script type="text/javascript" src="script.js"></script>
+
 
 <script type="text/javascript" src="../../common/rainbow/rainbow.min.js"></script>
 <script type="text/javascript" src="../../common/rainbow/generic.js"></script>
