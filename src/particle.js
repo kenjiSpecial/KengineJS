@@ -10,18 +10,18 @@ var Particle = function(){
     this.velocity = undefined;
     this.acceleration = undefined;
     this.position = undefined;
-    this.force =undefined;
+
+    this.force = undefined;
 
     this.lastTime = new Date().getTime();
 };
 
-Particle.prototype.update = function(force){
+Particle.prototype.update = function(){
     var dt = (new Date().getTime() - this.lastTime)/1000;
     this.sum_time += dt;
 
     //setting the acceleration
-    if(this)
-    this.acceleration = force.multiple(1/this.mass);
+    this.acceleration = this.force.multiple(1/this.mass);
 
     //TODO if this is heavy, you sholud change the addScaledVector
     //setting the velocity
@@ -32,6 +32,13 @@ Particle.prototype.update = function(force){
 
     this.lastTime = new Date().getTime();
 
-
 };
 
+Particle.prototype.setGravity = function(gravity){
+    this.force = gravity.multiple(this.mass);
+};
+
+Particle.prototype.resetForce = function(){
+    this.force.x = 0;
+    this.force.y = 0;
+}

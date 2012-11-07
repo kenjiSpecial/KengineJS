@@ -16,6 +16,13 @@ Arrow.prototype.setStartPt = function( _vector){
     this.startVec = _vector;
 };
 
+Arrow.prototype.setVector = function( _vector){
+    this.vector = _vector;
+
+    this.theta = Math.atan2( this.vector.y, this.vector.x);
+    this.triangle_pt01 = new Vector( 10 * Math.cos(5/6 * Math.PI + this.theta), 10 * Math.sin(5/6 * Math.PI + this.theta));
+    this.triangle_pt02 = new Vector( 10 * Math.cos(7/6 * Math.PI + this.theta), 10 * Math.sin(7/6 * Math.PI + this.theta));
+};
 
 Arrow.prototype.draw = function(context){
     context.beginPath();

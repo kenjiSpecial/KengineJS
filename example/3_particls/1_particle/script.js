@@ -138,10 +138,10 @@
             var myForce = myForces[i];
             var _myBall = myBalls[i];
 
-
+            myParticle.setGravity(myForce.force);
 
             myForce.calc_object(myParticle);
-            myParticle.update(myForce.force);
+            myParticle.update();
 
             if(myParticle.position.y > hg - myBall.size){
                 myParticle.position.y -= (myParticle.position.y - hg + _myBall.size);
@@ -174,6 +174,7 @@
                 _myBall.draw(myContext);
             }
 
+            myParticle.resetForce();
         }
 
 

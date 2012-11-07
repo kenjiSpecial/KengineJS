@@ -15,7 +15,7 @@
     var Ball = function (particle) {
         this.particles = particles;
         this.color = "rgba(0,0,0,";
-        this.size = 2.5;
+        this.size = 3;
     };
 
 
@@ -53,7 +53,7 @@
     var position_vector = new Vector( wd/2, hg/3);
     var velocityValue = 200;
 
-    myContext.fillStyle = "#ffffff";
+    myContext.fillStyle = "#ffffff"
     myContext.fillRect(0, 0, wd, hg);
 
     var particles = [];
